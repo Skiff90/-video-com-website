@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <!-- CSS -->
+
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+   <header class="header">
+      <div class="container header__container">
+         <a class="header__logo"><img src="./img/header__logo.png" alt="WAYSTAR CINEMA BAND"></a>
+      </div>
+   </header>
+   <section class="section send">
+      <div class="container send__text">
+         <h2>Заказать проект</h2>
+         <h1>Уточни</h1>
+      </div>
+      <div>
+         <form action="https://formspree.io/f/mvoljdey" method="post" class="container send__container">
+            <div class="send__block">
+               <div class="send__item-flex">
+                  <div class="send__input">
+                     <label for="1">Хронометраж</label>
+                     <input name="Хронометраж" placeholder="Любой" id="1" type="text">
+                  </div>
+                  <div class="send__input">
+                     <label for="2">Срок</label>
+                     <input name="Срок" id="2" placeholder="Больше месяца" type="text">
+                  </div>
+               </div>
+               <h2 class="send__h2">Тип видео </h2>
+               <div class="send__item ">
+
+                  <input type="radio" name="Тип видео-1" id="РЕКЛАМНЫЙ" value="РЕКЛАМНЫЙ">
+                  <label for="РЕКЛАМНЫЙ">РЕКЛАМНЫЙ</label>
+                  <input type="radio" name="Тип видео-1" id="ОБЗОРНЫЙ" value="ОБЗОРНЫЙ">
+                  <label for="ОБЗОРНЫЙ">ОБЗОРНЫЙ</label>
+                  <input type="radio" name="Тип видео-1" id="ИМИДЖЕВЫЙ" value="ИМИДЖЕВЫЙ">
+                  <label for="ИМИДЖЕВЫЙ">ИМИДЖЕВЫЙ</label>
+                  <input type="radio" name="Тип видео-1" id="ВИРУСНЫЙ" value="ВИРУСНЫЙ">
+                  <label for="ВИРУСНЫЙ">ВИРУСНЫЙ</label>
+                  <input type="radio" name="Тип видео-1" id="ОБУЧЕНИЕ" value="ОБУЧЕНИЕ">
+                  <label for="ОБУЧЕНИЕ">ОБУЧЕНИЕ</label>
+                  <input type="radio" name="Тип видео-1" id="ДРУГОЙ" value="ДРУГОЙ">
+                  <label for="ДРУГОЙ">ДРУГОЙ</label>
+
+               </div>
+               <div class="send__group">
+                  <div>
+                     <h2 class="send__h2">Тип видео </h2>
+                     <div class="send__item-2 ">
+
+                        <input type="radio" name="АНИМАЦИЯ" id="СЪЁМКА" value="СЪЁМКА">
+                        <label for="СЪЁМКА">СЪЁМКА</label>
+                        <input type="radio" name="АНИМАЦИЯ" id="АНИМАЦИЯ" value="АНИМАЦИЯ">
+                        <label for="АНИМАЦИЯ">АНИМАЦИЯ</label>
+                        <input type="radio" name="АНИМАЦИЯ" id="3D" value="3D">
+                        <label for="3D">3D</label>
+                        <input type="radio" name="АНИМАЦИЯ" id="СЪЁМКА + АНИМАЦИЯ" value="СЪЁМКА + АНИМАЦИЯ">
+                        <label for="СЪЁМКА + АНИМАЦИЯ">СЪЁМКА + АНИМАЦИЯ</label>
+                        <input type="radio" name="АНИМАЦИЯ" id="СЪЁМКА + 3D" value="СЪЁМКА + 3D">
+                        <label for="СЪЁМКА + 3D">СЪЁМКА + 3D</label>
+
+                     </div>
+                  </div>
+                  <div>
+                     <h2 class="send__h2">Тип видео </h2>
+                     <div class="send__item-2  send__item-3 ">
+
+                        <input type="radio" name="Тип видео" value="ЗАКРЫТЫЙ" id="ЗАКРЫТЫЙ">
+                        <label for="ЗАКРЫТЫЙ">ЗАКРЫТЫЙ</label>
+                        <input type="radio" name="Тип видео" value="DIGITAL" id="DIGITAL">
+                        <label for="DIGITAL">DIGITAL</label>
+                        <input type="radio" name="Тип видео" value="TB" id="TB">
+                        <label for="TB">TB</label>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="order__block">
+               <h2 class="order-h2">
+                  Закажите видео
+               </h2>
+
+               <input name="name" type="text" placeholder="Имя">
+               <input name="emal-tel" type="text" placeholder="Телефон или почта">
+               <button type="submit">Отправить</button>
+            </div>
+         </form>
+      </div>
+   </section>
+   <footer class="footer section">
+      <div class="footer__container container">
+         <a href="#" class="footer__logo">
+            <img src="./img/header__logo.png" alt="logo">
+         </a>
+         <div class="footer__down">
+
+            <a href="#" class="footer__rool">ⓒ 2022. ВСЕ ПРАВА ЗАЩИЩЕНЫ</a>
+            <div class="footer__socials">
+               <a href="#"><img src="./img/footer/youtube.png" alt="youtube"></a>
+               <a href="#"><img src="./img/footer/vk.png" alt="vk"></a>
+               <a href="#"><img src="./img/footer/telegram.png" alt="telegram"></a>
+            </div>
+         </div>
+      </div>
+
+   </footer>
+   <script src="./js/main.js"></script>
+</body>
+
+</html>
